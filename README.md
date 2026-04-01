@@ -100,5 +100,39 @@ print(is_palindrome("Hello"))    # False
 - Minimal comments: only where necessary (docstring explains purpose).
 - Consistency: reusable function with clear naming.
 
-Note: Generate Summaries of Repos using Repomix.com
+Note: Generate Summaries of Repos using www.repomix.com
+
+# Recoomendation
+
+## 📂 Why Add a `.cursor` Folder?
+
+It’s recommended to add a `.cursor` folder at the **root of your repository** because it provides AI context: project description, coding rules, and task lists. This ensures Cursor generates code aligned with your standards and goals.
+
+---
+
+## 📂 Where to Add `.cursor`
+
+Place the `.cursor` folder at the **root of your repo** (same level as `src/`, `README.md`, etc.).
+
+### Inside `.cursor`, include:
+- **description.md** → overview of the project, tech stack, coding rules.
+- **todo.md** → list of tasks you want Cursor to work on.
+- **mcp.json / configs** → metadata, preferences, or additional rules.
+
+👉 Cursor automatically uses `.cursor` as part of the project context.
+
+---
+
+## 🛠 How It Works in Practice
+
+1. **Import Repo** → Open your project in Cursor.  
+2. **Add `.cursor` Folder** → Create it at the root.  
+3. **Fill Context Files**:
+   - `description.md`: “This repo uses Python, follow clean code, modularity, avoid over-commenting.”
+   - `todo.md`: “Implement palindrome check, add unit tests, refactor utils.”
+4. **Reference in Prompts** → While chatting with Cursor:
+   - “See `todo.md` for pending tasks.”
+   - “Follow coding rules in `.cursor/description.md`.”
+5. **Review Output** → Cursor generates code aligned with your rules and tasks.
+
 
