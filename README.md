@@ -1,34 +1,104 @@
-# Cursor
+# Cursor Overview
 
-## Different Options
-- "Base" chatbots (Copilot / ChatGPT)
-- GitHub Copilot (first mover)
+## Options
+- Base chatbots (Copilot / ChatGPT)
+- GitHub Copilot
 - Cursor / Aider / Codeium / Cline
-- Other emerging AI-assisted coding tools
 
-## Important Factors
-- Integration in development flow (seamless with IDEs)
-- Intelligence around context (understanding project files, dependencies)
-- Prompt optimization (better handling of instructions)
-- Tool use (ability to call external tools or APIs)
-- Collaboration features (team workflows, shared context)
-- Customization (extensions, plugins, user-defined prompts)
-- Performance (speed, latency, resource usage)
+## Key Factors
+- IDE integration
+- Context awareness
+- Prompt optimization
+- Tool usage
+- Collaboration
+- Customization
+- Performance
 
 ## Why Cursor?
-- VS Code fork, supercharged with improved UI
-- Strong recognition and funding support
-- In our evaluation: **the best option and the one we picked**
-- Enterprise plan: $40 USD / user
-  - Enforced privacy mode
+- VS Code fork with improved UI
+- Strong recognition & funding
+- Best in our evaluation
+- Enterprise plan: $40/user
+  - Privacy mode
   - Limited premium requests
-- Active community and rapid feature updates
-- Better debugging and code navigation compared to alternatives
-- Stronger multi-file awareness (handles larger projects effectively)
+- Active community & updates
+- Better debugging & navigation
+- Strong multi-file awareness
 
-## Additional Considerations
-- Security and compliance for enterprise adoption
-- Scalability across teams and organizations
-- Support for multiple programming languages
-- Roadmap alignment with developer needs
-- Integration with CI/CD pipelines
+## Extra Considerations
+- Security & compliance
+- Team scalability
+- Multi-language support
+- Roadmap alignment
+- CI/CD integration
+
+# Cursor Tips & Best Practices
+
+## 🔑 Key Shortcuts and Features
+
+- **Tab Tab → Code Completion**
+  - Double-tap `Tab` to trigger AI-powered code completion.
+  - Useful for quickly filling in boilerplate or continuing logic.
+
+- **Ctrl + K → Chat About Code**
+  - Opens a chat window with the AI agent.
+  - Lets you ask questions about the codebase or request improvements.
+
+- **Select Code + Ctrl + K → Contextual Chat**
+  - Highlight a specific code block, then press `Ctrl + K`.
+  - The agent focuses only on the selected snippet for explanations or fixes.
+
+- **@ → Folder/Context Reference**
+  - Use `@` to give the agent context about a folder, file, or project section.
+  - Helps the AI understand dependencies and structure.
+
+- **Modes**
+  - **Ask Mode:** Query the agent for explanations, debugging help, or suggestions.
+  - **Manual Mode:** Apply changes yourself but still leverage AI hints.
+  - **Auto Mode (if available):** AI directly edits code with minimal input.
+
+---
+
+## 🧑‍💻 User Rule
+- Always produce **clean code**.
+- Avoid **over-commenting** (keep comments meaningful).
+- Maintain **consistent modularity** (functions, classes, reusable components).
+
+---
+
+## 📂 Project Rules
+- Follow language-specific style guides (PEP8 for Python, etc.).
+- Ensure unit tests are updated with every major change.
+- Keep dependencies minimal and well-documented.
+- Enforce privacy/security best practices in enterprise projects.
+
+---
+
+## 🐍 Python Example (Clean Code)
+
+```python
+def is_palindrome(word: str) -> bool:
+    """
+    Check if a given word is a palindrome.
+    
+    Args:
+        word (str): Input string to check.
+    
+    Returns:
+        bool: True if palindrome, False otherwise.
+    """
+    cleaned = word.lower().replace(" ", "")
+    return cleaned == cleaned[::-1]
+
+
+# Example usage
+print(is_palindrome("Racecar"))  # True
+print(is_palindrome("Hello"))    # False
+```
+
+- Clean code: concise, modular, and readable.
+- Minimal comments: only where necessary (docstring explains purpose).
+- Consistency: reusable function with clear naming.
+
+Note: Generate Summaries of Repos using Repomix.com
+
