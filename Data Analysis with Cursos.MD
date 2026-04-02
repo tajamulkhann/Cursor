@@ -20,3 +20,4 @@ You will create a new Jupyter Notebook for this.
 | Esc + B         | Insert new cell **below**              |
 | Esc + D + D     | Delete current cell                    |
 | Esc + Z         | Undo cell deletion                     |
+
