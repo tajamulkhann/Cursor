@@ -19,6 +19,21 @@ Perform a top performer analysis on the `sample.csv` dataset. Add multiple cells
 - Select the Code and Ctrl + K
 - Using Dark theme and create separate plot for each, I want you to keep important visuals and remove any unimportant visuals
 
+## Handle Error in Cursor
+If error Occur
+Copy Error
+Ctrl + K + Paste Error
+Prompt: Help me solve this error or The error is repetitive do whatever necessary to make it work
+
+## Working with Machine Learning
+Prompt: Add a new cell to the bottom of this notebook.
+
+Create an ML model using a random forest to predict the global sales for a game
+based on the important features only
+
+## Add Documentation
+Prompt: Add Documentation for the Cells (Specify or Selected Code)
+
 
 
 
