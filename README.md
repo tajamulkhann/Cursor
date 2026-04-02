@@ -135,4 +135,20 @@ Place the `.cursor` folder at the **root of your repo** (same level as `src/`, `
    - “Follow coding rules in `.cursor/description.md`.”
 5. **Review Output** → Cursor generates code aligned with your rules and tasks.
 
+## Jupyter / Cursor Cell Tricks
+
+| Shortcut        | Action                                |
+|-----------------|---------------------------------------|
+| Enter           | Edit the current cell (write code/text) |
+| Esc             | Exit editing mode (command mode)       |
+| Esc + M         | Convert cell to **Markdown**           |
+| Esc + Y         | Convert cell to **Code**               |
+| Esc + R         | Convert cell to **Raw format**         |
+| Shift + Enter   | Run current cell and move to next      |
+| Ctrl + Enter    | Run current cell, stay in place        |
+| Alt + Enter     | Run current cell and insert new below  |
+| Esc + A         | Insert new cell **above**              |
+| Esc + B         | Insert new cell **below**              |
+| Esc + D + D     | Delete current cell                    |
+| Esc + Z         | Undo cell deletion                     |
 
