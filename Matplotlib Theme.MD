@@ -1,4 +1,6 @@
 # Stolt-Nielsen inspired theme - Can change as per compnay's logo
+
+Prompt : Have a look at the visualizations of this notebook and standardize the style of the outputs as per the example below:
 BG_COLOR   = "#ffffff"   # White background
 FG_COLOR   = "#000000"   # Black text
 PRIMARY    = "#d71920"   # Stolt red (logo color)
