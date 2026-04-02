@@ -15,6 +15,9 @@ C:\Users\TKH\virtualenvs
 ## ⏹ Deactivate Environment
 - `deactivate` → Exit the environment
 
+## ⏹ Remove Environment
+- Remove-Item -Recurse -Force .\venv → Remove an environment named `venv`
+
 ## 📌 Additional Useful Points
 - **Naming convention:** Use descriptive names, e.g. `venv_projectA`, `venv_projectB`
 - **Requirements file:** Save dependencies with pip freeze > requirements.txt
