@@ -8,7 +8,7 @@ You will create a new Jupyter Notebook for this.
 
 | Shortcut        | Action                                |
 |-----------------|---------------------------------------|
-| Enter           | Edit the current cell (write code/text) |
+| Enter           | Edit the current cell (code/text)      |
 | Esc             | Exit editing mode (command mode)       |
 | Esc + M         | Convert cell to **Markdown**           |
 | Esc + Y         | Convert cell to **Code**               |
