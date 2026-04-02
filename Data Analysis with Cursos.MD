@@ -4,6 +4,25 @@
 Generate a starter analysis of the `sample.csv` dataset. While doing so, make sure you only use Jupyter Notebook tools for inserting or editing data.
 You will create a new Jupyter Notebook for this.
 
+## Emjois Prompt
+Select Code + Ctrl + K
+Add some emojis to the output so I can understand the analsysis easily 
+
+## Top Performer Analysis
+Perform a top performer analysis on the `sample.csv` dataset. Add multiple cells in the current Jupyter Notebook to make the analysis easy to understand, and include visualizations wherever necessary to highlight top performers. Be sure to point out any critical insights from a data perspective.
+
+## Selective Cell Context
+- Select the Code Cell example INSERT THE CHART HERE - "Add to Chat"
+- Insert charts of critical analysis here in this cell
+
+## Selective Code Modification
+- Select the Code and Ctrl + K
+- Using Dark theme and create separate plot for each, I want you to keep important visuals and remove any unimportant visuals
+
+
+
+
+
 ## Jupyter / Cursor Cell Tricks
 
 | Shortcut        | Action                                |
